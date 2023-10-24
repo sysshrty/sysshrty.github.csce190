@@ -4,11 +4,11 @@ body {
 }
 
 h1 {
-  color: darkgreen;
+  color: lightgrey;
   text-algin:center;
 }
 .assign {
-  background-color: lightgray;
+  background-color: darkblue;
   margin: 10px;
   padding: 10px;
   display: flex;
