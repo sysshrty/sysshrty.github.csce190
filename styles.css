@@ -7,6 +7,10 @@ h1 {
   color: lightgrey;
   text-algin:center;
 }
+a:hover {
+  text-decoration: none; /* remove underlining on anchor tags */
+  color: lightgold; /* pick the color you want */ 
+}
 .assign {
   background-color: lightblue;
   margin: 10px;
@@ -18,7 +22,9 @@ h1 {
   margin: 10px;
   border: 2px solid midnightblue; /* try dashed, dotted */
 }
-a:hover {
-  text-decoration: none; /* remove underlining on anchor tags */
-  color: lightgold; /* pick the color you want */ 
+.assign img:hover {
+  width: 200px;
+  margin: 10px;
+  border: 2px solid darkgrey; /* try dashed, dotted */
 }
+
