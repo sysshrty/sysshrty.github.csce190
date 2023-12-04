@@ -1,11 +1,15 @@
 body {
   background: lightgold;
   font-family:Arial, Helevtica, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 h1 {
   color: lightgrey;
   text-algin:center;
+  width: 100%;
+  display: block;
 }
 a:hover {
   text-decoration: none; /* remove underlining on anchor tags */
@@ -26,5 +30,10 @@ a:hover {
   width: 200px;
   margin: 10px;
   border: 2px solid darkgrey; /* try dashed, dotted */
+}
+.assign {
+width: 20%;
+box-shadow: 8px 8px [pick a color];
+display: block; /* instead of flex */ border-radius: 20px; /* set last assignment */
 }
 
