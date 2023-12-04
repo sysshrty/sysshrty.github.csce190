@@ -11,6 +11,12 @@ h1 {
   width: 100%;
   display: block;
 }
+h1:hover {
+  color: darkgreen; 
+  text-align: center;
+  width: 100%;
+  display: block;
+}
 a:hover {
   text-decoration: none; /* remove underlining on anchor tags */
   color: lightgold; /* pick the color you want */ 
@@ -18,8 +24,11 @@ a:hover {
 .assign {
   background-color: lightblue;
   margin: 10px;
-  padding: 10px;
-  display: flex;
+  padding: 10px
+  border-radius: 20px;
+  width: 20%;
+  box-shadow: 8px 8px brown;
+  display: block;
 }
 .assign img {
   width: 200px;
@@ -30,10 +39,5 @@ a:hover {
   width: 200px;
   margin: 10px;
   border: 2px solid darkgrey; /* try dashed, dotted */
-}
-.assign {
-width: 20%;
-box-shadow: 8px 8px [pick a color];
-display: block; /* instead of flex */ border-radius: 20px; /* set last assignment */
 }
 
